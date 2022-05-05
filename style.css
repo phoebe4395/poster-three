@@ -1,0 +1,135 @@
+body{
+    background-color: pink;
+}
+
+div.poster{
+    background-color: pink;
+    width: 75%;
+}
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+ /* Column stuff */
+
+div.col{
+    width: 33.33%;
+    overflow: hidden;
+    
+}
+
+ /* thirds */
+
+div.w1-3 {
+    width: 50%;
+}
+
+div.w2-3{ 
+    width: 100%;
+}
+
+div.w3-3 {
+    width: 100%;
+}
+
+
+ /* quarters */
+
+ div.w1-4 {
+    width: 25%;
+}
+
+div.w2-4 { 
+    width: 50%;
+}
+
+div.w3-4 {
+    width: 75%;
+}
+
+div.w4-4 {
+    width: 100%;
+}
+
+
+div.small {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 18px;
+    
+}
+
+@font-face {
+    font-family:BBBOcelot-Smooth ;
+    src: BBBOcelot-Smooth url(BBBOcelot-Smooth.woff);
+}
+
+div.text{
+    font-size: 120px;
+    text-align: center;
+    font-family: BBBOcelot-Smooth;
+    transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 75px;
+    background-color: rgb(255, 185, 56);
+    text-align: right;
+    line-height: -50px;
+}
+div.text.two {
+    font-size: 50px;
+    font-weight: lighter;
+    border-color: rgb(255, 47, 82);
+    border-style:dotted;
+   
+}
+div.text.three {
+    font-size: 25px;
+    font-style: italic;
+    background-color: rgb(255, 230, 5);
+    border-top: 0px;
+ 
+}
+
+/* rule 2 */
+
+div.text.a{
+    color: rgb(255, 47, 82);
+    
+}
+
+div.text.b{
+    color:rgb(255, 185, 56)
+}
+
+div.text.c{
+    color: rgb(255, 230, 5);
+}
+
+/* rule 3 */
+
+div.text.x{
+    transform: skew(45deg);
+    
+}
+
+div.text.y{
+transform: skew(-16deg);
+}
+
+div.text.z{
+transform: skew(90deg);
+}
+
+div.small{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(255, 0, 106);
+}
+
